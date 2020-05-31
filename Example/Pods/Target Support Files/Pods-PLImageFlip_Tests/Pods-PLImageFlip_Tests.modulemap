@@ -1,0 +1,6 @@
+framework module Pods_PLImageFlip_Tests {
+  umbrella header "Pods-PLImageFlip_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

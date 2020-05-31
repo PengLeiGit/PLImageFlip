@@ -1,0 +1,13 @@
+use_frameworks!
+
+target 'PLImageFlip_Example' do
+  pod 'PLImageFlip', :path => '../'
+
+  pod 'SnapKit'
+  pod 'Kingfisher'
+  target 'PLImageFlip_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

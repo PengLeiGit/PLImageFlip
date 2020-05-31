@@ -1,0 +1,29 @@
+PODS:
+  - Kingfisher (4.10.1)
+  - PLImageFlip (0.1.0):
+    - Kingfisher
+    - SnapKit
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - Kingfisher
+  - PLImageFlip (from `../`)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - SnapKit
+
+EXTERNAL SOURCES:
+  PLImageFlip:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  PLImageFlip: eceece28a0c4a20d4ae4250e0f50d900d4cd2acf
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: de41f48279656f18356c575e95b5155e8a0e88d6
+
+COCOAPODS: 1.9.1
